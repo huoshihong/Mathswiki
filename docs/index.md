@@ -1,5 +1,5 @@
 # Welcome to Mathswiki $\int$
-
+$\int_{0}^{1} f(x) \mathrm{d}x = 0$
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
 ## Commands
