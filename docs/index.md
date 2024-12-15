@@ -1,4 +1,4 @@
-# Welcome to Mathswiki $\sum$
+# Welcome to Mathswiki $\int$
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
