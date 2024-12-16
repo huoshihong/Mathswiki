@@ -1,0 +1,945 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../%E7%BA%BF%E6%80%A7%E7%A9%BA%E9%97%B4%E7%9A%84%E4%B8%A4%E4%B8%AA%E5%AE%9A%E7%90%86/">
+      
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.48">
+    
+    
+      
+        <title>3 - Mathswiki</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.6f8fc17f.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#axler3b" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Mathswiki" class="md-header__button md-logo" aria-label="Mathswiki" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Mathswiki
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              3
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Mathswiki" class="md-nav__button md-logo" aria-label="Mathswiki" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Mathswiki
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Set theory
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Set theory
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../test/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    chapter1
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../test2/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    chapter2
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Analysis
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Analysis
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../test3/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Real number
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Linear Algebra
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Linear Algebra
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%E7%BA%BF%E6%80%A7%E6%98%A0%E5%B0%84%E5%9F%BA%E6%9C%AC%E5%AE%9A%E7%90%86/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    1
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%E7%BA%BF%E6%80%A7%E7%A9%BA%E9%97%B4%E7%9A%84%E4%B8%A4%E4%B8%AA%E5%AE%9A%E7%90%86/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    3
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    3
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#5" class="md-nav__link">
+    <span class="md-ellipsis">
+      5
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#17" class="md-nav__link">
+    <span class="md-ellipsis">
+      17
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#18" class="md-nav__link">
+    <span class="md-ellipsis">
+      18
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#19" class="md-nav__link">
+    <span class="md-ellipsis">
+      19
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#20" class="md-nav__link">
+    <span class="md-ellipsis">
+      20
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#21" class="md-nav__link">
+    <span class="md-ellipsis">
+      21
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#22" class="md-nav__link">
+    <span class="md-ellipsis">
+      22
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#23" class="md-nav__link">
+    <span class="md-ellipsis">
+      23
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#24" class="md-nav__link">
+    <span class="md-ellipsis">
+      24
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#29" class="md-nav__link">
+    <span class="md-ellipsis">
+      29
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#31" class="md-nav__link">
+    <span class="md-ellipsis">
+      31
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      总结
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#5" class="md-nav__link">
+    <span class="md-ellipsis">
+      5
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#17" class="md-nav__link">
+    <span class="md-ellipsis">
+      17
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#18" class="md-nav__link">
+    <span class="md-ellipsis">
+      18
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#19" class="md-nav__link">
+    <span class="md-ellipsis">
+      19
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#20" class="md-nav__link">
+    <span class="md-ellipsis">
+      20
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#21" class="md-nav__link">
+    <span class="md-ellipsis">
+      21
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#22" class="md-nav__link">
+    <span class="md-ellipsis">
+      22
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#23" class="md-nav__link">
+    <span class="md-ellipsis">
+      23
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#24" class="md-nav__link">
+    <span class="md-ellipsis">
+      24
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#29" class="md-nav__link">
+    <span class="md-ellipsis">
+      29
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#31" class="md-nav__link">
+    <span class="md-ellipsis">
+      31
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      总结
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="axler3b">Axler习题3B</h1>
+<h2 id="5">5</h2>
+<p>给出线性映射 <span class="arithmatex">\(T:\mathbb{R}^4 \rightarrow \mathbb{R}^4\)</span> 使得 <span class="arithmatex">\(\mathrm{Im} T = \ker T\)</span>
+解答：
+首先根据维数公式，<span class="arithmatex">\(\dim \mathrm{Im} T = \dim \ker T = 2\)</span>
+接着，我们考虑随便选择一个2维子空间作为 <span class="arithmatex">\(\ker T\)</span>，然后我们想办法把这个 <span class="arithmatex">\(\ker T\)</span> 压缩到 <span class="arithmatex">\(0\)</span>，然后再把整个空间压缩到 <span class="arithmatex">\(\mathrm{Im} T\)</span></p>
+<p>事实上，<span class="arithmatex">\(\ker T\)</span> 与 <span class="arithmatex">\(\mathrm{Im} T\)</span> 同构。
+所以，我们考虑先把 <span class="arithmatex">\(\mathbb{R}^4\)</span> 投影到 <span class="arithmatex">\(\ker T\)</span> 的补空间上去
+这样，整个空间被压缩到 <span class="arithmatex">\(\ker T\)</span> 的补空间，<span class="arithmatex">\(\ker T\)</span> 被压缩到 <span class="arithmatex">\(0\)</span> 了，接着，由于补空间和 <span class="arithmatex">\(\mathrm{Im} T\)</span> 同构，所以我们自然能找到一个线性映射，把补空间再打到 <span class="arithmatex">\(\mathrm{Im} T\)</span> 上去。把以上两个映射复合起来就是最后的 <span class="arithmatex">\(T\)</span></p>
+<p>比如选取 <span class="arithmatex">\(\ker T = \{ (x_1,x_2,0,0) \in \mathbb{R}^4 : x_1,x_2 \in \mathbb{R} \}\)</span>
+补空间 <span class="arithmatex">\(W = \{ (0,0,x_3,x_4) \in \mathbb{R}^4 : x_3,x_4 \in \mathbb{R} \}\)</span>
+映射 <span class="arithmatex">\(T_1 : \mathbb{R^4} \rightarrow \mathbb{R}^4\)</span>
+<span class="arithmatex">\(T_2 : W \rightarrow \mathbb{R}^4\)</span>
+<span class="arithmatex">\(T_1(x_1,x_2,x_3,x_4) = (0,0,x_3,x_4)\)</span>
+<span class="arithmatex">\(T_2(0,0,x_3,x_4) = (x_3,x_4,0,0)\)</span></p>
+<p><span class="arithmatex">\(T_2T_1\)</span> 显然满足要求</p>
+<h2 id="17">17</h2>
+<p>设 <span class="arithmatex">\(V,W\)</span> 都是有限维的线性空间。证明存在一个 <span class="arithmatex">\(V\)</span> 到 <span class="arithmatex">\(W\)</span> 的单的线性映射当且仅当 <span class="arithmatex">\(\dim V \leq \dim W\)</span></p>
+<p>证明：
+若 <span class="arithmatex">\(T:V\rightarrow W\)</span> 单，则 <span class="arithmatex">\(\dim V = \dim \mathrm{Im} T + \dim \ker T=\dim \mathrm{Im} T \leq \dim W\)</span></p>
+<p>若 <span class="arithmatex">\(\dim V \leq \dim W\)</span>
+取 <span class="arithmatex">\(V\)</span> 的一组基 <span class="arithmatex">\(e_1,\ldots,e_{\dim V}\)</span>
+取 <span class="arithmatex">\(W\)</span> 的一组基 <span class="arithmatex">\(f_1,\ldots,f_{\dim W}\)</span>
+线性映射 <span class="arithmatex">\(T\)</span> 由 <span class="arithmatex">\(T(e_i) = f_i,\forall 1 \leq i \leq \dim V\)</span> 决定
+<span class="arithmatex">\(T\)</span> 显然是单射。</p>
+<p>这个定理告诉我们，小空间一定可以嵌入大空间。反之，若一个空间可以嵌入另一个空间，则它一定比它小</p>
+<h2 id="18">18</h2>
+<p>设 <span class="arithmatex">\(V,W\)</span> 都是有限维的线性空间，证明存在一个 <span class="arithmatex">\(V\)</span> 到 <span class="arithmatex">\(W\)</span> 的满线性映射当且仅当 <span class="arithmatex">\(\dim V \geq \dim W\)</span></p>
+<p>若 <span class="arithmatex">\(T:V \rightarrow W\)</span> 满，则 <span class="arithmatex">\(\dim V = \dim \mathrm{Im} T + \dim \ker T \geq \dim W\)</span>
+若 <span class="arithmatex">\(\dim V \geq \dim W\)</span>
+取 <span class="arithmatex">\(V\)</span> 的一组基 <span class="arithmatex">\(e_1,\ldots,e_{\dim V}\)</span>
+取 <span class="arithmatex">\(W\)</span> 的一组基 <span class="arithmatex">\(f_1,\ldots,f_{\dim W}\)</span>
+线性映射 <span class="arithmatex">\(T\)</span> 由
+$T(e_i) = f_i,\forall 1 \leq i \leq \dim W $ 决定
+显然，<span class="arithmatex">\(T\)</span> 是满射</p>
+<p>这个定理告诉我们，一个更大的空间可以压缩到一个更小的空间上。
+反之，如果一个空间被满映射到另外一个空间，那么它一定是被压缩了
+同构的情况除外，比较平凡。</p>
+<h2 id="19">19</h2>
+<p>设 <span class="arithmatex">\(V,W\)</span> 都是有限维的线性空间，且 <span class="arithmatex">\(U \leq V\)</span>，
+证明：存在线性映射 <span class="arithmatex">\(T:V\rightarrow W\)</span> 使得 <span class="arithmatex">\(\ker T = U\)</span> 当且仅当 <span class="arithmatex">\(\dim U \geq \dim V - \dim W\)</span></p>
+<p>若 <span class="arithmatex">\(\ker T = U\)</span>，则 <span class="arithmatex">\(\dim U = \dim \ker T = \dim V - \dim \mathrm{Im} T \geq \dim V - \dim W\)</span>
+反之，若 <span class="arithmatex">\(\dim U \geq \dim V - \dim W\)</span>
+取 <span class="arithmatex">\(U\)</span> 的一组基并扩张成 <span class="arithmatex">\(V\)</span> 的一组基：
+<span class="arithmatex">\(e_1,\ldots,e_{\dim U},e_{\dim U+1},\ldots,e_{\dim V}\)</span>
+取 <span class="arithmatex">\(W\)</span> 的一组基
+<span class="arithmatex">\(f_1,\ldots,f_{\dim W }\)</span>
+线性映射 <span class="arithmatex">\(T\)</span> 由
+<span class="arithmatex">\(T(e_i) = 0,\forall 1 \leq i \leq \dim U,T(e_i) = f_{i-\dim U},\forall \dim U + 1 \leq i \leq \dim V\)</span></p>
+<p>由 <span class="arithmatex">\(\dim U \geq \dim V - \dim W\)</span> 可以看出上述定义的合理性。
+可以验证：
+<span class="arithmatex">\(T(\lambda_1 e_1 + \ldots + \lambda_{\dim V} e_{\dim V}) = 0 \Leftrightarrow \lambda_{\dim U + 1}f_{1} + \ldots + \lambda_{\dim V}f_{\dim V - \dim U} = 0 \Leftrightarrow \lambda e_1 + \ldots \lambda_{\dim V}e_{\dim V} \in U\)</span></p>
+<p>这个定理告诉我们，如果 <span class="arithmatex">\(U\)</span> 是 <span class="arithmatex">\(T\)</span> 的核的话，那么这个核的维数最小也得是 <span class="arithmatex">\(\dim V - \dim U\)</span>。核的维数刻画了线性映射对原空间的压缩程度，而在这里，这个压缩程度至少是 <span class="arithmatex">\(\dim V - \dim W\)</span>（这还是满射 <span class="arithmatex">\(W\)</span> 的情况下才取等）</p>
+<p>反之，如果一个子空间 <span class="arithmatex">\(U\)</span> 的维数达到了成为核的最低要求，那么可以构造一个映射让他成为核，其实就是投影到它的补空间上去然后再同构地映射到 <span class="arithmatex">\(W\)</span> 之中（又或者是构造浓缩到商空间之中，然后再同构地映射到 <span class="arithmatex">\(W\)</span> 之中）</p>
+<h2 id="20">20</h2>
+<p>设 <span class="arithmatex">\(W\)</span> 是有限维线性空间，<span class="arithmatex">\(T:V\rightarrow W\)</span> 是线性映射。证明：<span class="arithmatex">\(T\)</span> 是单的当且仅当 存在线性映射 <span class="arithmatex">\(S:W \rightarrow V\)</span> 使得 <span class="arithmatex">\(ST\)</span> 为 <span class="arithmatex">\(V\)</span> 上恒等映射</p>
+<p>若 <span class="arithmatex">\(T\)</span> 是单的，设 <span class="arithmatex">\(V\)</span> 的基为 <span class="arithmatex">\(e_1,\ldots,e_{\dim V}\)</span>，则 <span class="arithmatex">\(Te_1,\ldots,Te_{\dim V}\)</span> 线性无关。
+且 <span class="arithmatex">\(\dim V \leq \dim W\)</span> 
+扩充 <span class="arithmatex">\(Te_{1},\ldots,Te_{\dim V},f_{1},\ldots,f_{\dim W - \dim V}\)</span></p>
+<p>线性映射 <span class="arithmatex">\(S\)</span> 由：
+<span class="arithmatex">\(S(Te_i) = e_i,\forall 1 \leq i \leq \dim V,S(f_i) = 0,\forall 1 \leq i \leq \dim W - \dim V\)</span></p>
+<p>反之，对于所有 <span class="arithmatex">\(v_1 \not= v_2 \in V\)</span>，若 <span class="arithmatex">\(Tv_1 = Tv_2\)</span>，则 <span class="arithmatex">\(STv_1 = STv_2\)</span>，矛盾！
+所以 <span class="arithmatex">\(T\)</span> 单</p>
+<p>在映射情形下，单射等价于有左逆
+在线性映射下也是同样道理。
+如果 <span class="arithmatex">\(V\)</span> 能嵌入 <span class="arithmatex">\(W\)</span>，那么肯定有个映射能从 <span class="arithmatex">\(W\)</span> 中还原出 <span class="arithmatex">\(V\)</span>，至于那些不在 <span class="arithmatex">\(\mathrm{Im} T\)</span> 中的向量，给他们任意指派向量都不会有问题，但是不管怎么样，<span class="arithmatex">\(\ker S\)</span> 一定足够大，因为 <span class="arithmatex">\(S\)</span> 能把 <span class="arithmatex">\(W\)</span> 压缩到 <span class="arithmatex">\(V\)</span></p>
+<p>这个右推左没难度，因为和映射是一个道理</p>
+<h2 id="21">21</h2>
+<p>设 <span class="arithmatex">\(V\)</span> 是有限维线性空间，<span class="arithmatex">\(T:V \rightarrow W\)</span> 是线性映射。证明 <span class="arithmatex">\(T\)</span> 是满的当且仅当 存在 <span class="arithmatex">\(S:W \rightarrow V\)</span>，使得 <span class="arithmatex">\(TS\)</span> 是 <span class="arithmatex">\(W\)</span> 上的线性映射</p>
+<p>若 <span class="arithmatex">\(T\)</span> 满，则 <span class="arithmatex">\(\dim V \geq \dim W\)</span>
+设 <span class="arithmatex">\(W\)</span> 的基为：
+<span class="arithmatex">\(e_1,\ldots,e_{\dim W}\)</span>
+取 <span class="arithmatex">\(W\)</span> 中向量：
+<span class="arithmatex">\(f_1,\ldots,f_{\dim W}\)</span>
+并满足条件 <span class="arithmatex">\(f_{i} \in T^{-1}\{ e_i\}\)</span></p>
+<p>构造线性映射 <span class="arithmatex">\(S\)</span>
+<span class="arithmatex">\(S(e_i) = f_i,\forall 1 \leq i \leq \dim W\)</span>
+容易验证 <span class="arithmatex">\(TS = \mathrm{id}_{W}\)</span></p>
+<p>反之，对于每个 <span class="arithmatex">\(w \in W\)</span>,<span class="arithmatex">\(TS(w') = w = T(S(w')) \in \mathrm{Im} T\)</span>
+显然有 <span class="arithmatex">\(T\)</span> 满</p>
+<h2 id="22">22</h2>
+<p>设 <span class="arithmatex">\(U,V,W\)</span> 都是有限维线性空间，<span class="arithmatex">\(T:U \rightarrow V,S:V\rightarrow W\)</span> 是线性映射。
+证明：
+<span class="arithmatex">\(<span class="arithmatex">\(\dim \ker ST \leq \dim \ker S + \dim \ker T\)</span>\)</span></p>
+<p>令 <span class="arithmatex">\(U' = \{ \alpha \in U : T(\alpha) \in \ker S \}\)</span>
+显然 <span class="arithmatex">\(\ker ST = U'\)</span> 且 <span class="arithmatex">\(\ker T \subset U'\)</span>
+考虑 <span class="arithmatex">\(T\)</span> 在 <span class="arithmatex">\(U'\)</span> 上的限制 <span class="arithmatex">\(T|_{U'}:U' \rightarrow \ker S\)</span>
+应用维数公式 <span class="arithmatex">\(\dim \ker ST = \dim U = \dim \mathrm{Im} T|_{U'} + \dim \ker T|_{U'} \leq \dim \ker S + \dim (\ker T \cap U') = \dim \ker S + \dim \ker T\)</span></p>
+<p>纯几何做法的一题
+首先要认识到 <span class="arithmatex">\(U' = T^{-1}[\ker S] = \ker ST\)</span>
+就是把 <span class="arithmatex">\(ST\)</span> 的核找到，它肯定是比 <span class="arithmatex">\(T\)</span> 的核要大一些的
+然后怎么去估计它的维数呢？
+好像除了 <span class="arithmatex">\(\ker T \subset U'\)</span> 之外没有关于 <span class="arithmatex">\(\ker T\)</span> 的信息了
+但是，<span class="arithmatex">\(\ker T\)</span> 反应的是 <span class="arithmatex">\(T\)</span> 的压缩程度，<span class="arithmatex">\(T\)</span> 是作用在整个 <span class="arithmatex">\(U\)</span> 上的，我们可以看一下 <span class="arithmatex">\(T\)</span> 单独作用在 <span class="arithmatex">\(U'\)</span> 上的表现
+<span class="arithmatex">\(\ker T|_{U'} = \ker T \cap U'\)</span> 也是理所应当的事情，这里 <span class="arithmatex">\(U'\)</span> 包括了 <span class="arithmatex">\(\ker T\)</span> 所以，<span class="arithmatex">\(U'\)</span> 被压缩的程度还挺大的
+然后直接利用维数公式估计 <span class="arithmatex">\(\dim U'\)</span> 即可</p>
+<p>由于 <span class="arithmatex">\(\mathrm{Im} T|_{U'}\)</span> 不一定为 <span class="arithmatex">\(\ker S\)</span> 故有不等号</p>
+<h2 id="23">23</h2>
+<p>设 <span class="arithmatex">\(U,V,W\)</span> 都是有限维线性空间，<span class="arithmatex">\(T:U \rightarrow V,S:V\rightarrow W\)</span> 是线性映射。
+证明：
+<span class="arithmatex">\(<span class="arithmatex">\(\dim \mathrm{Im} ST \leq \min\{\dim \mathrm{Im}S,\dim \mathrm{Im} T \}\)</span>\)</span>
+由 <span class="arithmatex">\(\mathrm{Im}ST \subset \mathrm{Im} S\)</span>，两边取 <span class="arithmatex">\(\dim <span class="arithmatex">(，立得 <span class="arithmatex">\(\dim \mathrm{Im} ST \leq \dim \mathrm{Im} S\)</span>
+<span class="arithmatex">\(\mathrm{Im} ST = S[(\mathrm{Im}T)]\)</span>
+所以要想研究 <span class="arithmatex">\(\mathrm{Im}ST\)</span>，就是要去研究 <span class="arithmatex">\(S\)</span> 限制在 <span class="arithmatex">\(\mathrm{Im} T\)</span> 上
+对 <span class="arithmatex">\(S|_{\mathrm{Im}T}\)</span> 应用维数公式立得，\)</span>\dim \mathrm{Im} T = \dim \mathrm{Im} S|_{\mathrm{Im}T} + \dim \ker S|_{\mathrm{Im}T} \geq \dim S[\mathrm{Im}T] = \dim \mathrm{Im}ST\)</span></p>
+<p>结合两个不等式即证</p>
+<h2 id="24">24</h2>
+<p>设 <span class="arithmatex">\(W\)</span> 是有限维的，并且 <span class="arithmatex">\(T_1,T_2 \in L(V,W)\)</span>。证明 <span class="arithmatex">\(\ker T_1 \subset \ker T_2\)</span> 当且仅当存在 <span class="arithmatex">\(S \in L(W,W)\)</span> 使得 <span class="arithmatex">\(T_2 = ST_1\)</span></p>
+<h2 id="29">29</h2>
+<p>设 <span class="arithmatex">\(\varphi \in L(V,\mathbb{F})\)</span>，假设 <span class="arithmatex">\(u \in V - \ker \varphi\)</span>，则 <span class="arithmatex">\(V = \ker \varphi \oplus \mathrm{span}(u)\)</span>
+证明：
+显然 <span class="arithmatex">\(\ker \varphi \cap \mathrm{span}(u) = \empty\)</span>
+<span class="arithmatex">\(\varphi(u) \not = 0\)</span>，<span class="arithmatex">\(\forall v \in V\)</span>
+若 <span class="arithmatex">\(\varphi(v) = 0\)</span> 则 <span class="arithmatex">\(v \in \ker \varphi \oplus \mathrm{span}(u)\)</span>
+否则，
+$\varphi(v) = \frac{\varphi(v)}{\varphi(u)} \cdot \varphi(u) = \varphi(\dfrac{\varphi(v)}{\varphi(u)} \cdot u) $
+则 <span class="arithmatex">\(v - \dfrac{\varphi(v)}{\varphi(u)} \cdot u \in \ker \varphi,v \in \ker \varphi \oplus \mathrm{span}(u)\)</span>
+无限维版本的定理
+补空间采取这样的方式定义
+这个也是自然的，补空间被嵌入了 <span class="arithmatex">\(\mathrm{Im} \varphi\)</span>，所以不能太大也不能太小</p>
+<h2 id="31">31</h2>
+<p>给出两个 <span class="arithmatex">\(\mathbb{R}^5 \rightarrow \mathbb{R}^2\)</span> 的线性映射 <span class="arithmatex">\(T_1,T_2\)</span>，使得它们有相同的核但 <span class="arithmatex">\(T_1\)</span> 不是 <span class="arithmatex">\(T_2\)</span> 的标量倍。
+很好构造，我们只需要选择它们核为 <span class="arithmatex">\(\{ (x_1,x_2,x_3,0,0) \in \mathbb{R}^5 : x_1,x_2,x_3 \in \mathbb{R}\}\)</span>
+然后投影到它的补空间上，
+<span class="arithmatex">\(\pi: \mathbb{R}^5 \rightarrow W,\pi (x_1,x_2,x_3,x_4,x_5) = (0,0,0,x_4,x_5)\)</span>
+接着我们考虑把 <span class="arithmatex">\(W\)</span> 用两种不同的方式嵌入 <span class="arithmatex">\(\mathbb{R}^2\)</span>，其实也很简单</p>
+<p><span class="arithmatex">\(S_1 : W \rightarrow \mathbb{R}^2,S_1(0,0,0,x_4,x_5) = (x_4,x_5)\)</span>
+<span class="arithmatex">\(S_2 : W \rightarrow \mathbb{R}^2,S_2(0,0,0,x_4,x_5) = (x_5,x_4)\)</span>
+可以验证 <span class="arithmatex">\(T_1 = S_1 \pi ,T_2 = S_2 \pi\)</span> 满足条件</p>
+<h2 id="_1">总结</h2>
+<p>解决这些题目的核心主要是在于，深刻理解核、像的关系。
+先写这么多题吧，有两个题暂时没有思路，先不管</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.83f73b43.min.js"></script>
+      
+        <script src="../javascripts/mathjax.js"></script>
+      
+        <script src="https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+    
+  </body>
+</html>

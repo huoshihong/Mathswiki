@@ -1,19 +1,11 @@
-# Welcome to Mathswiki $\int$
-$\int_{0}^{1} f(x) \mathrm{d}x = 0$
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+# Welcome to Mathswiki
+## 什么是Mathswiki
+Mathswiki 是一个维基百科式的数学笔记库。其中，每篇笔记以一个词条的形式呈现，它可能是某个数学对象/概念（比如序数、度量空间、多项式），某个定理（微积分基本定理、群同态基本定理、哥德尔完全性定理），某个技术/技巧（交换求和顺序、采用二进制、“最优”函数），甚至可能是一系列词条的总结/比较/提炼（Abel变换和分部积分的联系...）。
+总而言之，一篇笔记必须围绕一个事情为中心，然后以此中心发散地联系到其他笔记。Mathswiki的词条是动态的，不断完善的。另外，Mathswiki词条的组织方式并不是学习顺序，而是按数学对象关系建立的网状结构。
 
-## Commands
+## Mathswiki要做到什么
+下文所指的数学概念是一个较为模糊、广泛的名词，不一定是特定的一个数学对象。  
+数学概念之间的相互依赖程度是很高的，所以在学习新的数学概念时，只有对它所依赖的概念很熟悉，才能深刻地理解新的概念。另外，理解新概念也可以反过来促进对它所依赖的概念的理解。所以Mathswiki的目的是动态维护每一个数学概念，以提高学习新数学的效率以及加深对已学概念的理解。
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
-
-
+## 每一篇笔记的具体内容是什么
+众所周知，把握好直观感受和抽象证明的关系以及做法背后的动机是学习数学极其重要的课题。Mathswiki的每一篇笔记将记录我们看书/思考后脑子中直观的感受，而不是机械性的复制。
