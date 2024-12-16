@@ -574,7 +574,7 @@
 事实上，我们有 <span class="arithmatex">\(V = \ker T \oplus \mathrm{span}(f_1,\ldots,f_m)\)</span>
 而 <span class="arithmatex">\(\ker T\)</span> 意味那些被压缩到 <span class="arithmatex">\(0\)</span> 的向量集合，而 <span class="arithmatex">\(\mathrm{span}(f_1,\ldots,f_m) \cap \ker T = 0\)</span>，可以确认的是 <span class="arithmatex">\(Tf_1,\ldots,Tf_m\)</span> 线性无关。这说明，<span class="arithmatex">\(T\)</span> 没有压缩这些基。
 如果 <span class="arithmatex">\(\lambda_1f_1 + \ldots \lambda_mf_m \in \ker T\)</span>，且系数不全为0，我们可以找出那个非零系数的向量然后，他的像可以被其他像表示 (有一个 <span class="arithmatex">\(\ker T\)</span> 中的向量帮助)
-所以，我们得到 $\dim V = \dim \ker T + \dim \mathrm{Im} T $</p>
+所以，我们得到 <span class="arithmatex">\(\dim V = \dim \ker T + \dim \mathrm{Im} T\)</span></p>
 <p><strong>证明3</strong>（更本质）
 设 <span class="arithmatex">\(U\)</span> 是 <span class="arithmatex">\(V\)</span> 的一个子空间
 我们定义向量 <span class="arithmatex">\(\alpha\)</span> 的陪集，<span class="arithmatex">\(\alpha + U = \{\alpha + v : v \in U \}\)</span>
@@ -590,14 +590,14 @@
 不难验证 <span class="arithmatex">\(V/\sim_{U}\)</span> 与 <span class="arithmatex">\(V/U\)</span> 同构</p>
 <p>商空间的直观理解：把某个空间的所有元素都看成无关紧要的，然后把它商掉就相当于忽略这个空间中的元素，然后商空间就是忽略相差这个空间的元素的意义下的整个空间的划分（以等价关系和商集理解就很简单，比如数论中的例子）</p>
 <p>然后事实上，商空间同构于补空间。
-因为 <span class="arithmatex">\(U \oplus W = V\)</span>，意味着，<span class="arithmatex">\(W\)</span> 之间的元素不会相差出 <span class="arithmatex">\(U\)</span> 中的元素。所以，对于 <span class="arithmatex">\(W\)</span> 中的 <span class="arithmatex">\(w_1 \not = w_2\)</span>，一定有 <span class="arithmatex">\(w_1 + U \cap w_2 + U = \empty\)</span>
+因为 <span class="arithmatex">\(U \oplus W = V\)</span>，意味着，<span class="arithmatex">\(W\)</span> 之间的元素不会相差出 <span class="arithmatex">\(U\)</span> 中的元素。所以，对于 <span class="arithmatex">\(W\)</span> 中的 <span class="arithmatex">\(w_1 \not = w_2\)</span>，一定有 <span class="arithmatex">\(w_1 + U \cap w_2 + U = \emptyset\)</span>
 然而 <span class="arithmatex">\(W\)</span> 的任何子空间 <span class="arithmatex">\(W'\)</span> 都有上述的这个性质，所以它还不能彰显出 <span class="arithmatex">\(W\)</span> 作为补空间的特殊性。实际上，上述性质等价于 <span class="arithmatex">\(\varphi:W \rightarrow V/U\)</span>，<span class="arithmatex">\(\varphi(w) = w + U\)</span> 是单射，但是满射性我们还没有证明。
 其实也非常简单，<span class="arithmatex">\(\forall v \in V,v = v_1 + v_2\)</span>，其中 <span class="arithmatex">\(v_1 \in U,v_2 \in W\)</span>，显然 <span class="arithmatex">\(v + U = v_2 + U\)</span>（因为他们之间相差一个 <span class="arithmatex">\(U\)</span> 中元素）
 直观上，这有点像是在 <span class="arithmatex">\(W\)</span> 中做投影。
 综上所述，有，补空间和商空间同构</p>
 <p>对于线性映射的这个问题，我们注意到：
 只考虑元素的像的情况下，<span class="arithmatex">\(\alpha - \beta \in \ker T \Leftrightarrow T\alpha = T\beta\)</span>，即相差一个核中的元素不影响元素的像。
-进而，我们会考虑，商掉 $\ker $。
+进而，我们会考虑，商掉 <span class="arithmatex">\(\ker\)</span>。
 所以自然的，我们有 <span class="arithmatex">\(V/\ker T\)</span>，所以这个空间反应出只考虑元素的像后的 <span class="arithmatex">\(V\)</span> 的样子，相当于把 <span class="arithmatex">\(V\)</span> 压缩。</p>
 <p>我们会考虑 <span class="arithmatex">\(V/\ker T\)</span> 同构 <span class="arithmatex">\(\mathrm{Im} T\)</span> 
 考虑映射 <span class="arithmatex">\(\varphi:V/\ker T \rightarrow \mathrm{Im} T\)</span>
