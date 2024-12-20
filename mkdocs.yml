@@ -1,6 +1,6 @@
 site_name: Mathswiki
 theme:
-  name: 'material'
+  name: material
 # mathjax
 markdown_extensions:
   - pymdownx.arithmatex:
@@ -25,14 +25,7 @@ extra_javascript:
 # navigator
 nav:
   - Home: index.md
-  - Set Theory:
-      - 1: Set Theory/test.md
-      - 2: Set Theory/ZFC/test2.md
   - Analysis: Analysis/test3.md
-  - Linear Algebra:
-      - 1: Linear Algebra/线性映射基本定理.md
-      - 2: Linear Algebra/线性空间的两个定理.md
-      - 3: Linear Algebra/习题3B.md
 # Chinese search
 plugins:
     - search:
@@ -40,3 +33,6 @@ plugins:
             - en
             - ja
         separator: '[\s\-\.]+'
+
+extra_css:
+  - stylesheets/extra.css
