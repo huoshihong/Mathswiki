@@ -25,7 +25,14 @@ extra_javascript:
 # navigator
 nav:
   - Home: index.md
-  - Analysis: Analysis/test3.md
+  - Set Theory:
+      - ZFC:
+      - 序数:
+          - 序: ./Set Theory/序数/序.md
+          - 序之间的映射: ./Set Theory/序数/序之间的映射.md
+          - 良序: ./Set Theory/序数/良序.md
+      - 朴素集合论:
+
 # Chinese search
 plugins:
     - search:
